@@ -9,3 +9,12 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
   header nav { float: right; margin-top: 10px; }
   header .highlight, header .current a { color: #12b288; font-weight: bold; }
   header a:hover { color: #ffffff; font-weight: bold; }
+  img {
+    width: 50%; /* změní šířku obrázku na polovinu původní velikosti */
+    height: auto; /* zachová poměr stran obrázku */
+    display: block;
+    margin: 10px auto; /* přidává malý okraj kolem obrázku a zarovná ho na střed */
+    border: solid #15cc9c
+  }
+  
+  
