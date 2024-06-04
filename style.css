@@ -11,7 +11,7 @@ body {
   header { 
     background: #000000; 
     color: #fff; 
-    padding-top: 30px;
+    padding-top: 20px;
     margin: -8.3px; 
     min-height: 70px; 
     border-bottom: #15cc9c 3px solid; 
@@ -65,19 +65,15 @@ body {
     border: solid #15cc9c; 
   }
 
-  .container {
-    padding-bottom: 120px; /* Přidáno místo pro zápatí */
-  }
-
   footer {
     background: #000000; 
     color: #fff;
     padding-top: 10px;
     padding-bottom: 5px;
-    margin: 0px;
     border-top: #15cc9c 3px solid;
-    position: relative; /* Změněno z 'fixed' na 'relative' */
-    bottom: 0;
+    position: absolute; /* Změněno z 'fixed' na 'relative' */
     width: 100%;
     text-align: center;
+    overflow: hidden; 
+    left: 0px;
   }
