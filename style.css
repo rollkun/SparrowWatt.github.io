@@ -1,20 +1,83 @@
-body { font-family: Arial, sans-serif; line-height: 1.6; }
-  .container { width: 80%; margin: auto; overflow: hidden; }
-  header { background: #000000; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #15cc9c 3px solid; }
-  header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
-  header ul { padding: 0; list-style: none; }
-  header li { display: inline; padding: 0 20px 0 20px; }
-  header #branding { float: left; }
-  header #branding h1 { margin: 0; }
-  header nav { float: right; margin-top: 10px; }
-  header .highlight, header .current a { color: #12b288; font-weight: bold; }
-  header a:hover { color: #ffffff; font-weight: bold; }
-  img {
-    width: 50%; /* změní šířku obrázku na polovinu původní velikosti */
-    height: auto; /* zachová poměr stran obrázku */
-    display: block;
-    margin: 10px auto; /* přidává malý okraj kolem obrázku a zarovná ho na střed */
-    border: solid #15cc9c
+body { 
+  font-family: Arial, sans-serif; 
+  line-height: 1.6; 
+}
+  .container { 
+    width: 80% !important;
+    margin: 0 auto; 
+    overflow: hidden; 
   }
-  
-  
+
+  header { 
+    background: #000000; 
+    color: #fff; 
+    padding-top: 30px;
+    margin: -8.3px; 
+    min-height: 70px; 
+    border-bottom: #15cc9c 3px solid; 
+  }
+
+  header a { 
+    color: #fff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 16px; 
+  }
+
+  header ul { 
+    padding: 0; 
+    list-style: none; 
+  }
+
+  header li { 
+    display: inline; 
+    padding: 0 20px 0 20px; 
+  }
+
+  header #branding { 
+    float: left; 
+  }
+
+  header #branding h1 { 
+    margin: 0; 
+  }
+
+  header nav { 
+    float: right; 
+    margin-top: 10px; 
+  }
+
+  header .highlight, header .current a { 
+    color: #12b288; 
+    font-weight: bold; 
+  }
+
+  header a:hover { 
+    color: #ffffff; 
+    font-weight: bold; 
+  }
+
+  img {
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+    border: solid #15cc9c; 
+  }
+
+  .container {
+    padding-bottom: 120px; /* Přidáno místo pro zápatí */
+  }
+
+  footer {
+    background: #000000; 
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+    border-top: #15cc9c 3px solid;
+    position: relative; /* Změněno z 'fixed' na 'relative' */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
