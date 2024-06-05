@@ -58,8 +58,7 @@ body {
   }
 
   img {
-    width: 50%; 
-    height: auto; 
+    width: 50%;
     display: block; 
     margin: 10px auto; 
     border: solid #15cc9c; 
