@@ -62,6 +62,7 @@ body {
     display: block; 
     margin: 10px auto; 
     border: solid #15cc9c; 
+    border-radius: 15px;
   }
 
   footer {
